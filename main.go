@@ -3,6 +3,7 @@ package main
 import (
   "os"
 	"github.com/gin-gonic/gin"
+  "gopkg.in/yaml.v2"
 )
 
 func setupRouter() *gin.Engine {
